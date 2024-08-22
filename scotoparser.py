@@ -84,7 +84,7 @@ def read_spheno_output(spheno_ouput: os.PathLike) -> dict:
 
 
 if __name__ == "__main__":
-    spheno_ouput = os.path.join(os.path.dirname(__file__), "test.dat")
+    spheno_ouput = os.path.join(os.path.dirname(__file__), "test", "test.dat")
     unified_dict = read_spheno_output(spheno_ouput)
 
     lista = [f"set {key.upper()} {value}\n" for key, value in unified_dict.items()]
