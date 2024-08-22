@@ -1,3 +1,5 @@
 xslha
 six
 numpy
+pandas
+lxml
